@@ -14,9 +14,9 @@ def run():
 
     # getting the button by xpath
     button = driver.find_element_by_xpath('//*[@id="app"]/div')
-    time.sleep(2) # time for loading
+    time.sleep(2)   #time for loading
 
-    # clicking on the button
+    # clicks the button unlimited
     while True:
         button.click()
         time.sleep(0.005)
